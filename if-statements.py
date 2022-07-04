@@ -1,5 +1,7 @@
 """
-Run this file to test and shit.
+Complete the functions by replacing what's in `pass`.
+
+Run this file to test.
 """
 
 
@@ -10,7 +12,7 @@ def greater_than_5(x: int) -> bool:
     pass
 
 
-print("Testing Problem 1")
+print("Testing greater_than_5")
 assert not greater_than_5(4)
 assert not greater_than_5(5)
 assert greater_than_5(6)
@@ -30,7 +32,7 @@ def dqs(x: float) -> int:
     pass
 
 
-print("Testing Problem 2")
+print("Testing dqs")
 assert dqs(0) == 10
 assert dqs(1) == 8
 assert dqs(2) == 8
@@ -52,7 +54,7 @@ def is_shorter(x: str, y: str) -> str:
     pass
 
 
-print("Testing Problem 3")
+print("Testing is_shorter")
 assert is_shorter("a", "aa") == "a"
 assert is_shorter("bb", "aa") == "aa"
 assert is_shorter("bb", "aaa") == "bb"
